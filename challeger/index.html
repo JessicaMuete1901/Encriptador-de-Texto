@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title> Encriptador de Texto </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+<title>Encriptador de texto</title>
+</head>
+<body>
+    
+    <div class="container"> 
+       <img src="imagenes/Frame 6.png" alt="" id="logo"> 
+        <div class="encriptar">
+            <textarea name="texto" class= "texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+        
+    <div class="terminos">
+        <p> Solo letras minusculas y sin acentos.</p>
+    </div>
+
+     
+    <div class="botones">
+        <button class="btn-encriptar" type="button" onclick="encriptar()"> Encriptar
+        </button>
+        <input type="button" class="btn-Desencriptar" value="Desencriptar" onclick="desencriptar()"/> 
+    </div>
+    </div>
+    <div class="encriptado">
+        <img src="imagenes/Muñeco.png" alt="" id="muneco"/>
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+            <h2 id="titulo-mensaje">Ningun Mensaje fue encontrado</h2>
+            <p id="parrafo">Ingresa el texto que desees encriptar o desencriptar.
+            </p>
+            
+            <div class="aviso-texto-copiado-invisible">
+                Texto copiado! 
+            </div>
+            <button class="boton-copiarinvisible">
+                Copiar 
+            </button>
+        </div>
+     </div>
+</div>
+
+<script src="js/botoncopia.js"></script>
+<script src="js/boton-desencriptar-texto.js"></script>
+<script src="js/boton-encriptar-texto.js"></script>
+<script src="js/encriptar_desencriptar.js"></script>
+<script src="js/funcion-copiar.js"></script>
+<script src="js/validar-entrada.js"></script>
+<script src="js/funcion_visualizar.js"></script>
+
+</body>
+<script src="index.js"> </script>
+</html>
+
